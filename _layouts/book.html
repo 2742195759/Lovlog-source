@@ -4,7 +4,7 @@ layout: default
 <div class="book sidebar-right">
   {%- include header.html -%}
   <div class="book__cover">
-    <img src="{{ page.img | img_url_prefix }}" class="book__img" alt="{{ page.title }}"/>
+    <img src="{{site.baseurl}}{{ page.img | img_url_prefix }}" class="book__img" alt="{{ page.title }}"/>
   </div>
   <div class="book__content">
     <div class="book__content_inner">

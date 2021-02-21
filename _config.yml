@@ -74,3 +74,6 @@ theme_setting:
 # smiley:
 #   enabled: true
 #   dir: img/smileys
+
+baseurl: "/Lovlog/" # the subpath of your site, e.g. /blog
+url: "http://2742195759.github.io" # the base hostname & protocol for your site, e.g. http://example.com

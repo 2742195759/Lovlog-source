@@ -7,7 +7,7 @@
       <div class="slide__img">
         <a href="{{ book.url | relative_url }}" class="slide__link" title="{{ book.title }}"></a>
         <div class="slide__img_placehold"></div>
-        <img src="{{ book.img | img_url_prefix }}" class="slide__img_entity" alt="{{ book.title }}">
+        <img src="{{site.baseurl}}{{ book.img | img_url_prefix }}" class="slide__img_entity" alt="{{ book.title }}">
       </div>
       {%- endif -%}
       <div class="slide__text {% if is_odd == 1 %}slide__text_right{% else %}slide__text_left{% endif %}">
@@ -27,7 +27,7 @@
       <div class="slide__img">
         <a href="{{ book.url | relative_url }}" class="slide__link" title="{{ book.title }}"></a>
         <div class="slide__img_placehold"></div>
-        <img src="{{ book.img | img_url_prefix }}" alt="{{ book.title }}">
+        <img src="{{site.baseurl}}{{ book.img | img_url_prefix }}" alt="{{ book.title }}">
       </div>
       {%- endif -%}
     </div>
