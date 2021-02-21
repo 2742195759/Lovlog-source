@@ -1,8 +1,9 @@
+set -e
 git add .
 git commit -m "fixbugs"
 git push origin master
 
-rm -r _site
+sudo rm -r _site
 bundle exec jekyll build
 cp .nojekyll ./_site/
 cd ./_site
