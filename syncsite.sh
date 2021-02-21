@@ -1,4 +1,3 @@
-set -e
 git add .
 git commit -m "fixbugs"
 git push origin master
