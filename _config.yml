@@ -25,7 +25,7 @@
 # # The followings are settings for displays of your blog.
 theme_setting:
 #   # The slides count in the slides layout. Default is 4.
-    slides_count: 5
+    slides_count: 20
 #   # The ← back URL on the top of your post page. Default is your site's home page.
 #   blog_page: "blog/index.md"
 #   # The URL on your name on the bottom of your post and page. Default is your site's home page.
@@ -75,5 +75,17 @@ theme_setting:
 #   enabled: true
 #   dir: img/smileys
 
+title: Blog of Xiong Kun
+email: xk18@mails.tsinghua.edu.cn
+description: This is the blog page of xiongkun
 baseurl: "/Lovlog/" # the subpath of your site, e.g. /blog
 url: "http://2742195759.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: 2742195759
+plugins:
+  - jekyll-feed
+  - jekyll-books
+markdown : kramdown
+theme: jekyll-theme-persephone
+whitelist: 
+  - jekyll-feed
+  - jekyll-books
